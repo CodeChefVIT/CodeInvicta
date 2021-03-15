@@ -1,3 +1,25 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+.devsoc-logo {
+  width: 150px;
+  height: 70px;
+  margin-top: 5%;
+  margin-left: 7%;
+}
+
+.codechef-logo {
+  width: 150px;
+  height: 50px;
+  margin-top: 5%;
+  margin-right: 7%;
+}
+
+@media screen and (max-width: 600px) {
+  .devsoc-logo {
+    width: 100px;
+    height: 50px;
+  }
+  .codechef-logo {
+    width: 100px;
+    height: 40px;
+  }
 }

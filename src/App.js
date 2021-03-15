@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import "./App.css";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
+import TitleSection from "./components/TitleSection/TitleSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -13,6 +14,35 @@ function App() {
 	return (
 		<div className="App">
 			<Parallax pages={3}>
+				<ParallaxLayer
+					offset={0}
+					speed={0}
+					style={{ display: "flex", justifyContent: "flex-start" }}
+				>
+					<img src="/assets/devsoc.svg" className="devsoc-logo" />
+				</ParallaxLayer>
+				<ParallaxLayer
+					offset={0}
+					speed={0}
+					style={{ display: "flex", justifyContent: "flex-end" }}
+				>
+					<img src="/assets/ccwhite.png" className="codechef-logo" />
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={0}
+					speed={-0.1}
+					//   onClick={() => this.parallax.scrollTo(1)}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
+					<TitleSection />
+				</ParallaxLayer>
+
 				<ParallaxLayer
 					offset={1}
 					speed={1}
@@ -34,17 +64,6 @@ function App() {
 						backgroundSize: "cover",
 					}}
 				/>
-
-				<ParallaxLayer
-					offset={1.3}
-					speed={-0.3}
-					style={{ pointerEvents: "none" }}
-				>
-					<img
-						src={url("satellite4")}
-						style={{ width: "15%", marginLeft: "70%" }}
-					/>
-				</ParallaxLayer>
 
 				<ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
 					<img
@@ -162,6 +181,17 @@ function App() {
 				</ParallaxLayer>
 
 				<ParallaxLayer
+					offset={1.4}
+					speed={-0.8}
+					style={{ pointerEvents: "none" }}
+				>
+					<img
+						src={url("satellite4")}
+						style={{ width: "15%", marginLeft: "80%" }}
+					/>
+				</ParallaxLayer>
+
+				<ParallaxLayer
 					offset={2.5}
 					speed={-0.4}
 					style={{
@@ -183,19 +213,6 @@ function App() {
 						backgroundImage: url("clients", true),
 					}}
 				/>
-
-				<ParallaxLayer
-					offset={0}
-					speed={0.1}
-					//   onClick={() => this.parallax.scrollTo(1)}
-					style={{
-						display: "flex",
-						alignItems: "center",
-						justifyContent: "center",
-					}}
-				>
-					<img src={url("server")} style={{ width: "20%" }} />
-				</ParallaxLayer>
 
 				<ParallaxLayer
 					offset={1}
