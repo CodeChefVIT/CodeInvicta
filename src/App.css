@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 .devsoc-logo {
-  width: 150px;
-  height: 70px;
-  margin-top: 5%;
-  margin-left: 7%;
+	width: 150px;
+	height: 70px;
+	margin-top: 5%;
+	margin-left: 7%;
 }
 
 .codechef-logo {
-  width: 150px;
-  height: 50px;
-  margin-top: 5%;
-  margin-right: 7%;
+	width: 150px;
+	height: 50px;
+	margin-top: 5%;
+	margin-right: 7%;
 }
 
 @media screen and (max-width: 600px) {
-  .devsoc-logo {
-    width: 100px;
-    height: 50px;
-  }
-  .codechef-logo {
-    width: 100px;
-    height: 40px;
-  }
+	.devsoc-logo {
+		width: 100px;
+		height: 50px;
+	}
+	.codechef-logo {
+		width: 100px;
+		height: 40px;
+	}
+}
+
+.main-date {
+	font-weight: 700;
+	font-size: 2.5rem;
+	color: #82c8db;
+	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #429ebe, 5px 5px 0 #429ebe, 6px 6px 0 #429ebe, 7px 7px 0 #429ebe;
 }

@@ -2,6 +2,7 @@
 import "./App.css";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import TitleSection from "./components/TitleSection/TitleSection";
+import WindowBar from "./components/WindowBar/WindowBar";
 
 const url = (name, wrap = false) =>
 	`${
@@ -41,6 +42,19 @@ function App() {
 				>
 					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
 					<TitleSection />
+				</ParallaxLayer>
+				<ParallaxLayer
+					offset={0.3}
+					speed={-0.3}
+					//   onClick={() => this.parallax.scrollTo(1)}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
+					<h2 className="main-date">27th March 2021</h2>
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -181,17 +195,6 @@ function App() {
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={1.4}
-					speed={-0.8}
-					style={{ pointerEvents: "none" }}
-				>
-					<img
-						src={url("satellite4")}
-						style={{ width: "15%", marginLeft: "80%" }}
-					/>
-				</ParallaxLayer>
-
-				<ParallaxLayer
 					offset={2.5}
 					speed={-0.4}
 					style={{
@@ -224,7 +227,7 @@ function App() {
 						justifyContent: "center",
 					}}
 				>
-					<img src={url("bash")} style={{ width: "40%" }} />
+					<WindowBar />
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -237,6 +240,17 @@ function App() {
 					}}
 				>
 					<img src={url("clients-main")} style={{ width: "40%" }} />
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={1.4}
+					speed={-0.8}
+					style={{ pointerEvents: "none" }}
+				>
+					<img
+						src={url("satellite4")}
+						style={{ width: "15%", marginLeft: "80%" }}
+					/>
 				</ParallaxLayer>
 			</Parallax>
 		</div>

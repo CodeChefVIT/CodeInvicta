@@ -1,0 +1,30 @@
+.outer {
+	background: #273138;
+	width: 80%;
+	padding: 10px;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #f9f9f9;
+	border-radius: 50%;
+	margin: 0 4px 0 0;
+}
+
+.dot.red {
+	background: #FF6057;
+	border: 1px solid #E14640;
+}
+
+.dot.amber {
+	background: #FFBD2E;
+	border: 1px solid #DFA123;
+}
+
+.dot.green {
+	background: #27C93F;
+	border: 1px solid #1DAD2B;
+}
