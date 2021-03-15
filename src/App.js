@@ -2,7 +2,7 @@
 import "./App.css";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import TitleSection from "./components/TitleSection/TitleSection";
-import WindowBar from "./components/WindowBar/WindowBar";
+import DetailsSection from "./components/DetailsSection/DetailsSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -213,7 +213,7 @@ function App() {
 					style={{
 						backgroundSize: "80%",
 						backgroundPosition: "center",
-						backgroundImage: url("clients", true),
+						// backgroundImage: url("clients", true),
 					}}
 				/>
 
@@ -227,7 +227,7 @@ function App() {
 						justifyContent: "center",
 					}}
 				>
-					<WindowBar />
+					<DetailsSection />
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -239,7 +239,7 @@ function App() {
 						justifyContent: "center",
 					}}
 				>
-					<img src={url("clients-main")} style={{ width: "40%" }} />
+					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
 				</ParallaxLayer>
 
 				<ParallaxLayer
