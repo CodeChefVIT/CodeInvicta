@@ -232,7 +232,7 @@ function App() {
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={1.8}
+					offset={1.9}
 					speed={0.8}
 					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
