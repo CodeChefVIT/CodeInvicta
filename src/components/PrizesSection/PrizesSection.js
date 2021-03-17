@@ -11,11 +11,15 @@ const PrizesSection = () => {
 			</div>
 			<div className="grid-section">
 				{/* ADD IMAGE HERE */}
+				<img src="/assets/swags.svg" className="swag-img" alt="swags" />
+				<hr className="prize-divider" />
 				<p className="main-title prize-sub">Swags</p>
 			</div>
 			<div className="grid-section">
 				{/* ADD IMAGE HERE */}
-				<p className="main-title prize-sub">Bragging Rights</p>
+				<img src="/assets/brag.svg" className="swag-img" alt="swags" />
+				<hr className="prize-divider" />
+				<p className="main-title prize-sub brag">Bragging Rights</p>
 			</div>
 		</div>
 	);

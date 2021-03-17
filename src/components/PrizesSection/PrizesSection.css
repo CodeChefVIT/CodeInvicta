@@ -7,7 +7,7 @@
 .grid-section {
 	flex: 1;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	margin: 20px;
@@ -21,8 +21,8 @@
 }
 
 .prize-divider {
-	width: 100%;
-	height: 5px;
+	width: 60%;
+	height: 2px;
 	background-color: white;
 	border-radius: 10px;
 }
@@ -30,6 +30,10 @@
 .prize-sub {
 	font-size: 3rem;
 	color: white;
+}
+
+.swag-img {
+	width: 250px;
 }
 
 @media screen and (max-width: 960px) {
@@ -42,5 +46,11 @@
 	}
 	.prizes-section {
 		flex-direction: column;
+	}
+	.swag-img {
+		width: 150px;
+	}
+	.prize-divider {
+		width: 40%;
 	}
 }
