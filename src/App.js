@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import TitleSection from "./components/TitleSection/TitleSection";
 import DetailsSection from "./components/DetailsSection/DetailsSection";
 import PrizesSection from "./components/PrizesSection/PrizesSection";
+import RegisterSection from "./components/RegisterSection/RegisterSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -246,7 +247,7 @@ function App() {
 
 				<ParallaxLayer
 					offset={2}
-					speed={-0}
+					speed={0.5}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -254,6 +255,7 @@ function App() {
 					}}
 				>
 					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
+					<RegisterSection />
 				</ParallaxLayer>
 
 				<ParallaxLayer
