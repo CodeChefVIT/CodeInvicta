@@ -3,6 +3,7 @@ import "./App.css";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import TitleSection from "./components/TitleSection/TitleSection";
 import DetailsSection from "./components/DetailsSection/DetailsSection";
+import PrizesSection from "./components/PrizesSection/PrizesSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -66,7 +67,7 @@ function App() {
 				<ParallaxLayer
 					offset={2}
 					speed={1}
-					style={{ backgroundColor: "#87BCDE" }}
+					style={{ backgroundColor: "#4b79b3" }}
 				/>
 
 				<ParallaxLayer
@@ -204,7 +205,7 @@ function App() {
 						pointerEvents: "none",
 					}}
 				>
-					<img src={url("earth")} style={{ width: "60%" }} />
+					{/* <img src={url("earth")} style={{ width: "60%" }} /> */}
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -219,7 +220,7 @@ function App() {
 
 				<ParallaxLayer
 					offset={1}
-					speed={0.1}
+					speed={0.7}
 					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
 						display: "flex",
@@ -228,6 +229,19 @@ function App() {
 					}}
 				>
 					<DetailsSection />
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={1.8}
+					speed={0.8}
+					//   onClick={() => this.parallax.scrollTo(2)}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					<PrizesSection />
 				</ParallaxLayer>
 
 				<ParallaxLayer

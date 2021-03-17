@@ -1,0 +1,38 @@
+.prizes-section {
+	display: flex;
+	width: 100%;
+	padding: 0 5%;
+}
+
+.grid-section {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.prize-rs {
+	font-size: 4rem !important;
+	color: #82c8db !important;
+	margin-bottom: 20px !important;
+}
+
+.prize-sub {
+	font-size: 3rem;
+	color: white;
+}
+
+@media screen and (max-width: 960px) {
+	.prize-rs {
+		font-size: 2rem !important;
+		margin-bottom: 10px !important;
+	}
+	.prize-sub {
+		font-size: 1.5rem;
+	}
+	.prizes-section {
+		flex-direction: column;
+	}
+}

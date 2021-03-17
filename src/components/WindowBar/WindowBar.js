@@ -1,9 +1,9 @@
 import React from "react";
 import "./WindowBar.css";
 
-const WindowBar = () => {
+const WindowBar = ({ light }) => {
 	return (
-		<div className="outer dark">
+		<div className={`outer ${light ? "light" : "dark"}`}>
 			<div className="dot red"></div>
 			<div className="dot amber"></div>
 			<div className="dot green"></div>
