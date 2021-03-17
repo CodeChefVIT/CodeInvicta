@@ -3,10 +3,10 @@ import "./WindowBar.css";
 
 const WindowBar = () => {
 	return (
-		<div class="outer dark">
-			<div class="dot red"></div>
-			<div class="dot amber"></div>
-			<div class="dot green"></div>
+		<div className="outer dark">
+			<div className="dot red"></div>
+			<div className="dot amber"></div>
+			<div className="dot green"></div>
 		</div>
 	);
 };

@@ -31,3 +31,9 @@
 	color: #82c8db;
 	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #429ebe, 5px 5px 0 #429ebe, 6px 6px 0 #429ebe, 7px 7px 0 #429ebe;
 }
+
+.console-text {
+	color: white;
+	font-family: "Inconsolata", monospace;
+	text-shadow: 0 0 5px #C8C8C8;
+}
