@@ -31,7 +31,7 @@ const DetailsSection = () => {
 					<p className="details-content">
 						Well, this is your chance to showcase your skills. Join
 						us at this spectacular event during the{" "}
-						<strong>Road to Devsoc!</strong>
+						<strong>Road to DEVSOC!</strong>
 					</p>
 				</div>
 			</div>

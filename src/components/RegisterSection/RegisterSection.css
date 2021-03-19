@@ -3,8 +3,9 @@
 	color: #101010;
 	text-align: left;
 	justify-content: start;
+	overflow: hidden;
 	align-items: flex-start;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 }
 
@@ -12,9 +13,11 @@
 	background: transparent;
 	outline: none;
 	border: none;
+	flex: 1 0;
 	font-size: 1.1rem;
 	font-weight: 600;
 	width: max-content;
+	min-width: 200px;
 }
 
 .window-pane.light input:focus {
@@ -42,4 +45,37 @@
 	font-weight: 600;
 	padding: 0;
 	color: blue;
+}
+
+.mt {
+	margin-top: 2rem !important;
+}
+
+.window-pane.light div {
+	margin-top: 3px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+@media (max-width:650px) {
+	.window-pane.light {
+		font-size: 1rem;
+	}
+	.window-pane.light input {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+}
+
+@media (max-width: 450px) {
+	.window-pane.light {
+		font-size: 1.2rem;
+	}
+	.window-pane.light input {
+		font-size: 1.2rem;
+		width: 100%;
+		flex: auto;
+		border-bottom: 1px solid #000;
+	}
 }

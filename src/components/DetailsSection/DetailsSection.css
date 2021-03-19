@@ -7,8 +7,8 @@
 	border-radius: 0px 0px 7px 7px;
 	color: white;
 	font-family: "Inconsolata", monospace;
-	text-shadow: 0 0 5px #C8C8C8;
-	padding: 1% 5%;
+	text-shadow: 0 0 5px #c8c8c8;
+	padding: 2% 5%;
 	min-height: 40vh;
 	height: 100%;
 	display: flex;
@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+	.details-window {
+		width: 75%;
+	}
 	.details-title {
 		font-size: 1.5rem;
 	}
