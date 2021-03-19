@@ -47,7 +47,7 @@ const RegisterSection = () => {
 	return (
 		<div className="details-window">
 			<WindowBar />
-			<div className="window-pane light">
+			<div className="window-pane register">
 				<div>
 					It takes utter pondering and expeditious analyzing
 					capability to break the problems and unravel the mystery

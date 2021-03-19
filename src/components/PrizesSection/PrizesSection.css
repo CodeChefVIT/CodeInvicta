@@ -1,12 +1,13 @@
 .prizes-section {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	padding: 0 5%;
 }
 
 .grid-section {
-	flex: 1;
 	display: flex;
+	width: 45%;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -15,7 +16,7 @@
 }
 
 .prize-rs {
-	font-size: 4rem !important;
+	font-size: 3.8rem !important;
 	color: #82c8db !important;
 	margin-bottom: 30px !important;
 }
@@ -28,7 +29,7 @@
 }
 
 .prize-sub {
-	font-size: 3rem;
+	font-size: 2.8rem;
 	color: white;
 }
 
@@ -36,7 +37,7 @@
 	width: 250px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1250px) {
 	.prize-rs {
 		font-size: 2rem !important;
 		margin-bottom: 10px !important;
@@ -44,8 +45,14 @@
 	.prize-sub {
 		font-size: 1.5rem;
 	}
+}
+
+@media screen and (max-width: 960px) {
 	.prizes-section {
 		flex-direction: column;
+	}
+	.grid-section {
+		width: 100%;
 	}
 	.swag-img {
 		width: 150px;

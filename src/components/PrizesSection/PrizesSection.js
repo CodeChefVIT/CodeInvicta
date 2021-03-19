@@ -3,25 +3,32 @@ import "./PrizesSection.css";
 
 const PrizesSection = () => {
 	return (
-		<div className="prizes-section">
-			<div className="grid-section">
-				<p className="main-title prize-sub prize-rs">Rs 10000</p>
-				<hr className="prize-divider" />
-				<p className="main-title prize-sub">Prizes</p>
+		<>
+			<div className="prizes-section">
+				<div className="grid-section">
+					<p className="main-title prize-sub prize-rs">Rs 20K</p>
+					<hr className="prize-divider" />
+					<p className="main-title prize-sub">Prize Pool</p>
+				</div>
+				<div className="grid-section">
+					<p className="main-title prize-sub">1st Prize: Rs 7K</p>
+					<p className="main-title prize-sub">2nd Prize: Rs 5K</p>
+					<p className="main-title prize-sub">3rd Prize: Rs 3K</p>
+				</div>
+				<div className="grid-section">
+					<p className="main-title prize-sub prize-rs">
+						CodeChef Ladoos
+					</p>
+					<hr className="prize-divider" />
+					<p className="main-title prize-sub">250 Each</p>
+				</div>
+				<div className="grid-section">
+					<p className="main-title prize-sub prize-rs">2.5K Each</p>
+					<hr className="prize-divider" />
+					<p className="main-title prize-sub">Top 2 Freshers</p>
+				</div>
 			</div>
-			<div className="grid-section">
-				{/* ADD IMAGE HERE */}
-				<img src="/assets/swags.svg" className="swag-img" alt="swags" />
-				<hr className="prize-divider" />
-				<p className="main-title prize-sub">Swags</p>
-			</div>
-			<div className="grid-section">
-				{/* ADD IMAGE HERE */}
-				<img src="/assets/brag.svg" className="swag-img" alt="swags" />
-				<hr className="prize-divider" />
-				<p className="main-title prize-sub brag">Bragging Rights</p>
-			</div>
-		</div>
+		</>
 	);
 };
 

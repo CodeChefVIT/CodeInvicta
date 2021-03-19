@@ -5,6 +5,7 @@ import TitleSection from "./components/TitleSection/TitleSection";
 import DetailsSection from "./components/DetailsSection/DetailsSection";
 import PrizesSection from "./components/PrizesSection/PrizesSection";
 import RegisterSection from "./components/RegisterSection/RegisterSection";
+import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -16,7 +17,7 @@ const url = (name, wrap = false) =>
 function App() {
 	return (
 		<div className="App">
-			<Parallax pages={3}>
+			<Parallax pages={3.4}>
 				<ParallaxLayer
 					offset={0}
 					speed={0}
@@ -234,6 +235,19 @@ function App() {
 
 				<ParallaxLayer
 					offset={1.9}
+					speed={0.7}
+					//   onClick={() => this.parallax.scrollTo(2)}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					<SpeakerSection />
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={2}
 					speed={0.8}
 					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
@@ -246,7 +260,7 @@ function App() {
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={2}
+					offset={2.7}
 					speed={0.5}
 					style={{
 						display: "flex",

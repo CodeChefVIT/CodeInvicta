@@ -1,15 +1,20 @@
 .window-pane.light {
 	background-color: white !important;
 	color: #101010;
+}
+
+.window-pane.register {
 	text-align: left;
 	justify-content: start;
 	overflow: hidden;
 	align-items: flex-start;
 	font-size: 1.4rem;
 	font-weight: 600;
+	color: #efefef;
 }
 
-.window-pane.light input {
+.window-pane.register input {
+	margin-left: 6px;
 	background: transparent;
 	outline: none;
 	border: none;
@@ -17,10 +22,11 @@
 	font-size: 1.1rem;
 	font-weight: 600;
 	width: max-content;
+	color: #efefef;
 	min-width: 200px;
 }
 
-.window-pane.light input:focus {
+.window-pane.register input:focus {
 	outline: none;
 }
 
@@ -29,14 +35,14 @@
 }
 
 .terminal-success {
-	color: green;
+	color: rgb(69, 228, 69);
 }
 
 .terminal-blue {
-	color: blue;
+	color: rgb(69, 228, 69);
 }
 
-.window-pane.light button {
+.window-pane.register button {
 	outline: none;
 	border: none;
 	margin-top: 2rem;
@@ -44,35 +50,35 @@
 	font-size: 1.3rem;
 	font-weight: 600;
 	padding: 0;
-	color: blue;
+	color: rgb(69, 228, 69);
 }
 
 .mt {
 	margin-top: 2rem !important;
 }
 
-.window-pane.light div {
+.window-pane.register div {
 	margin-top: 3px;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 }
 
-@media (max-width:650px) {
-	.window-pane.light {
+@media (max-width: 650px) {
+	.window-pane.register {
 		font-size: 1rem;
 	}
-	.window-pane.light input {
+	.window-pane.register input {
 		font-size: 1rem;
 		font-weight: 400;
 	}
 }
 
 @media (max-width: 450px) {
-	.window-pane.light {
+	.window-pane.register {
 		font-size: 1.2rem;
 	}
-	.window-pane.light input {
+	.window-pane.register input {
 		font-size: 1.2rem;
 		width: 100%;
 		flex: auto;
