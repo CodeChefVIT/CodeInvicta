@@ -1,3 +1,45 @@
 .window-pane.light {
 	background-color: white !important;
+	color: #101010;
+	text-align: left;
+	justify-content: start;
+	align-items: flex-start;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.window-pane.light input {
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+	width: max-content;
+}
+
+.window-pane.light input:focus {
+	outline: none;
+}
+
+.terminal-err {
+	color: red;
+}
+
+.terminal-success {
+	color: green;
+}
+
+.terminal-blue {
+	color: blue;
+}
+
+.window-pane.light button {
+	outline: none;
+	border: none;
+	margin-top: 2rem;
+	background-color: transparent;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 0;
+	color: blue;
 }
