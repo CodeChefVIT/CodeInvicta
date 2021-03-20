@@ -59,7 +59,7 @@ function App() {
 					}}
 				>
 					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
-					<h2 className="main-date">27th March 2021</h2>
+					<h2 className="main-date">26th March 2021 (9pm - 12am)</h2>
 				</ParallaxLayer>
 
 				<ParallaxLayer
