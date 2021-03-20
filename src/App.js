@@ -7,6 +7,7 @@ import PrizesSection from "./components/PrizesSection/PrizesSection";
 import RegisterSection from "./components/RegisterSection/RegisterSection";
 import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
 import CollabSection from "./components/CollabSection/CollabSection";
+import TimelineSection from "./components/TimelineSection/TimelineSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -18,7 +19,7 @@ const url = (name, wrap = false) =>
 function App() {
 	return (
 		<div className="App">
-			<Parallax pages={4.2}>
+			<Parallax pages={5}>
 				<ParallaxLayer
 					offset={0}
 					speed={0}
@@ -68,6 +69,13 @@ function App() {
 				/>
 
 				<ParallaxLayer
+					offset={3.3}
+					speed={0.5}
+					factor={1.5}
+					style={{ backgroundColor: "#805E73" }}
+				/>
+
+				<ParallaxLayer
 					offset={2}
 					speed={1}
 					style={{ backgroundColor: "#4b79b3" }}
@@ -76,7 +84,7 @@ function App() {
 				<ParallaxLayer
 					offset={0}
 					speed={0}
-					factor={3}
+					factor={4.5}
 					style={{
 						backgroundImage: url("stars", true),
 						backgroundSize: "cover",
@@ -259,10 +267,22 @@ function App() {
 				>
 					<PrizesSection />
 				</ParallaxLayer>
+				<ParallaxLayer
+					offset={2.9}
+					speed={0.6}
+					//   onClick={() => this.parallax.scrollTo(2)}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					<TimelineSection />
+				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={2.8}
-					speed={0.5}
+					offset={3.4}
+					speed={0.7}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -273,7 +293,7 @@ function App() {
 					<RegisterSection />
 				</ParallaxLayer>
 				<ParallaxLayer
-					offset={3.3}
+					offset={4}
 					speed={0.5}
 					style={{
 						display: "flex",

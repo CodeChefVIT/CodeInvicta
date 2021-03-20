@@ -104,7 +104,9 @@ const RegisterSection = () => {
 						onChange={(e) => setReg(e.target.value)}
 					/>
 				</div>
-				<button onClick={submit}>&gt;&gt; Submit</button>
+				<button onClick={submit} className="terminal-success">
+					&gt;&gt; Submit
+				</button>
 				<div id="message-err" className="terminal-err"></div>
 				<div id="message-success" className="terminal-success"></div>
 			</div>
