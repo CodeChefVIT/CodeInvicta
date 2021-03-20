@@ -8,8 +8,8 @@
 }
 
 .codechef-logo {
-	width: 150px;
-	height: 50px;
+	width: 90px;
+	height: 90px;
 	margin-top: 5%;
 	margin-right: 7%;
 }
@@ -20,14 +20,14 @@
 		height: 50px;
 	}
 	.codechef-logo {
-		width: 100px;
-		height: 40px;
+		width: 60px;
+		height: 60px;
 	}
 }
 
 .main-date {
 	font-weight: 700;
-	font-size: 2.5rem;
+	font-size: 1.7rem;
 	color: #82c8db;
 	text-align: center;
 	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #429ebe, 5px 5px 0 #429ebe, 6px 6px 0 #429ebe, 7px 7px 0 #429ebe;

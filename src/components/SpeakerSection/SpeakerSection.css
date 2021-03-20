@@ -1,10 +1,13 @@
 .card {
 	width: 60%;
 	border-radius: 10px;
-	height: 300px;
+	height: 400px;
 	background-color: white;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: "Poppins", sans-serif;
 }
 
 .card-img {
@@ -12,7 +15,8 @@
 }
 
 .card-body {
-	width: calc(90% - 225px);
+	/* width: calc(90% - 225px); */
+	width: 100%;
 	padding: 6px 30px;
 	overflow: auto;
 }
@@ -36,6 +40,9 @@
 @media (max-width: 600px) {
 	.card {
 		width: 90%;
-        height: 400px;
+		height: 400px;
+	}
+	.card-body h1 {
+		font-size: 1.5rem;
 	}
 }

@@ -32,7 +32,7 @@ function App() {
 					speed={0}
 					style={{ display: "flex", justifyContent: "flex-end" }}
 				>
-					<img src="/assets/ccwhite.png" className="codechef-logo" />
+					<img src="/assets/ccwhite.svg" className="codechef-logo" />
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -59,7 +59,7 @@ function App() {
 					}}
 				>
 					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
-					<h2 className="main-date">26th March 2021 (9pm - 12am)</h2>
+					<h2 className="main-date">24th - 26th March 2021</h2>
 				</ParallaxLayer>
 
 				<ParallaxLayer

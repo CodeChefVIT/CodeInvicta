@@ -45,7 +45,8 @@ const TimelineSection = () => {
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<span className="timeline-sub">
-							24th March 2021 (x PM - x PM)
+							24th March 2021
+							{/* (x PM - x PM) */}
 						</span>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
@@ -61,15 +62,16 @@ const TimelineSection = () => {
 					</TimelineSeparator>
 					<TimelineContent className="timeline-div">
 						<div>
-							<h1 className="text-style">A chat with </h1>
-							<h3>Explore the world of "topic"</h3>
+							<h1 className="text-style">Session #1 </h1>
+							<h3>A talk by a renowned industry expert</h3>
 						</div>
 					</TimelineContent>
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<span className="timeline-sub">
-							25th March 2021 (x PM - x PM)
+							25th March 2021
+							{/* (x PM - x PM) */}
 						</span>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
@@ -85,8 +87,8 @@ const TimelineSection = () => {
 					</TimelineSeparator>
 					<TimelineContent className="timeline-div">
 						<div>
-							<h1 className="text-style">A chat with </h1>
-							<h3>Get to know the intricacies "topic"</h3>
+							<h1 className="text-style">Session #2 </h1>
+							<h3>Get to know something new!</h3>
 						</div>
 					</TimelineContent>
 				</TimelineItem>
