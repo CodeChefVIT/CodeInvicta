@@ -46,7 +46,7 @@ const RegisterSection = () => {
 
 	return (
 		<div className="details-window">
-			<WindowBar />
+			<WindowBar title="Register Now!" />
 			<div className="window-pane register">
 				<div>
 					It takes utter pondering and expeditious analyzing

@@ -6,6 +6,7 @@ import DetailsSection from "./components/DetailsSection/DetailsSection";
 import PrizesSection from "./components/PrizesSection/PrizesSection";
 import RegisterSection from "./components/RegisterSection/RegisterSection";
 import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
+import CollabSection from "./components/CollabSection/CollabSection";
 
 const url = (name, wrap = false) =>
 	`${
@@ -17,13 +18,13 @@ const url = (name, wrap = false) =>
 function App() {
 	return (
 		<div className="App">
-			<Parallax pages={3.4}>
+			<Parallax pages={4.2}>
 				<ParallaxLayer
 					offset={0}
 					speed={0}
 					style={{ display: "flex", justifyContent: "flex-start" }}
 				>
-					<img src="/assets/devsoc.svg" className="devsoc-logo" />
+					<img className="devsoc-logo" src="/assets/devsoc.svg" />
 				</ParallaxLayer>
 				<ParallaxLayer
 					offset={0}
@@ -260,7 +261,7 @@ function App() {
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={2.7}
+					offset={2.8}
 					speed={0.5}
 					style={{
 						display: "flex",
@@ -271,7 +272,18 @@ function App() {
 					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
 					<RegisterSection />
 				</ParallaxLayer>
-
+				<ParallaxLayer
+					offset={3.3}
+					speed={0.5}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
+					<CollabSection />
+				</ParallaxLayer>
 				<ParallaxLayer
 					offset={1.4}
 					speed={-0.8}

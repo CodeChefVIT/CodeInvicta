@@ -1,0 +1,30 @@
+.full-width {
+    width: 100vw;
+}
+
+.cc-grid {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0;
+    flex-wrap: wrap;
+}
+
+.cc-grid img {
+    width: 200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .cc-grid img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cc-grid img {
+        width: 35%;
+    }
+}

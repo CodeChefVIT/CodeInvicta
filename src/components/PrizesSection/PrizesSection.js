@@ -17,10 +17,10 @@ const PrizesSection = () => {
 				</div>
 				<div className="grid-section">
 					<p className="main-title prize-sub prize-rs">
-						CodeChef Ladoos
+						CodeChef Laddus
 					</p>
 					<hr className="prize-divider" />
-					<p className="main-title prize-sub">250 Each</p>
+					<p className="main-title prize-sub">250 for Each Winner</p>
 				</div>
 				<div className="grid-section">
 					<p className="main-title prize-sub prize-rs">2.5K Each</p>

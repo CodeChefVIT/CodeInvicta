@@ -31,6 +31,12 @@
 .prize-sub {
 	font-size: 2.8rem;
 	color: white;
+	text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363, 1px 3px 1px #919191,
+		1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+		1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+		1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+		1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+		1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 .swag-img {
@@ -53,11 +59,30 @@
 	}
 	.grid-section {
 		width: 100%;
+		margin: 10px 0;
 	}
 	.swag-img {
 		width: 150px;
 	}
 	.prize-divider {
 		width: 40%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.prize-rs {
+		font-size: 1.2rem !important;
+		margin-bottom: 5px !important;
+	}
+	.prize-sub {
+		font-size: 1rem;
+		letter-spacing: 5px;
+		text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363,
+			1px 3px 1px #919191, 1px 4px 1px #919191, 1px 4px 1px #919191,
+			1px 7px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191,
+			1px 7px 1px #919191, 1px 8px 1px #919191,
+			1px 12px 6px rgba(16, 16, 16, 0.4),
+			1px 14px 10px rgba(16, 16, 16, 0.2),
+			1px 16px 35px rgba(16, 16, 16, 0.2);
 	}
 }
