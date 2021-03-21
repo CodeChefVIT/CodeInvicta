@@ -6,7 +6,7 @@ const CollabSection = () => {
 		<div className="window-pane full-width">
 			<div>
 				<h1 className="details-title">
-					A competetive coding event in collaboration with 4 VIT's
+					A competitive coding event in collaboration with 4 VIT's
 					CodeChef Chapters
 				</h1>
 				<div className="cc-grid">
