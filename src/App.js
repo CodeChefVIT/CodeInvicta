@@ -21,34 +21,6 @@ function App() {
 		<div className="App">
 			<Parallax pages={5}>
 				<ParallaxLayer
-					offset={0}
-					speed={0}
-					style={{ display: "flex", justifyContent: "flex-start" }}
-				>
-					<img className="devsoc-logo" src="/assets/devsoc.svg" />
-				</ParallaxLayer>
-				<ParallaxLayer
-					offset={0}
-					speed={0}
-					style={{ display: "flex", justifyContent: "flex-end" }}
-				>
-					<img src="/assets/ccwhite.svg" className="codechef-logo" />
-				</ParallaxLayer>
-
-				<ParallaxLayer
-					offset={0}
-					speed={-0.1}
-					//   onClick={() => this.parallax.scrollTo(1)}
-					style={{
-						display: "flex",
-						alignItems: "center",
-						justifyContent: "center",
-					}}
-				>
-					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
-					<TitleSection />
-				</ParallaxLayer>
-				<ParallaxLayer
 					offset={0.3}
 					speed={-0.3}
 					//   onClick={() => this.parallax.scrollTo(1)}
@@ -80,6 +52,17 @@ function App() {
 					speed={1}
 					style={{ backgroundColor: "#4b79b3" }}
 				/>
+
+				<ParallaxLayer
+					offset={1.4}
+					speed={-0.8}
+					style={{ pointerEvents: "none" }}
+				>
+					<img
+						src={url("satellite4")}
+						style={{ width: "15%", marginLeft: "80%" }}
+					/>
+				</ParallaxLayer>
 
 				<ParallaxLayer
 					offset={0}
@@ -215,9 +198,7 @@ function App() {
 						justifyContent: "center",
 						pointerEvents: "none",
 					}}
-				>
-					{/* <img src={url("earth")} style={{ width: "60%" }} /> */}
-				</ParallaxLayer>
+				></ParallaxLayer>
 
 				<ParallaxLayer
 					offset={2}
@@ -225,14 +206,12 @@ function App() {
 					style={{
 						backgroundSize: "80%",
 						backgroundPosition: "center",
-						// backgroundImage: url("clients", true),
 					}}
 				/>
 
 				<ParallaxLayer
 					offset={1}
 					speed={0.7}
-					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -245,7 +224,6 @@ function App() {
 				<ParallaxLayer
 					offset={1.9}
 					speed={0.7}
-					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -258,7 +236,6 @@ function App() {
 				<ParallaxLayer
 					offset={2}
 					speed={0.8}
-					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -270,7 +247,6 @@ function App() {
 				<ParallaxLayer
 					offset={2.9}
 					speed={0.6}
-					//   onClick={() => this.parallax.scrollTo(2)}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -301,18 +277,49 @@ function App() {
 						justifyContent: "center",
 					}}
 				>
-					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
 					<CollabSection />
 				</ParallaxLayer>
 				<ParallaxLayer
-					offset={1.4}
-					speed={-0.8}
-					style={{ pointerEvents: "none" }}
+					offset={0}
+					speed={-0.1}
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+					}}
 				>
-					<img
-						src={url("satellite4")}
-						style={{ width: "15%", marginLeft: "80%" }}
-					/>
+					<TitleSection />
+				</ParallaxLayer>
+				<ParallaxLayer
+					offset={0}
+					speed={0}
+					style={{
+						display: "flex",
+						justifyContent: "space-between",
+						width: "calc(100% - 40px)",
+						padding: 20,
+						margin: "auto",
+						height: 50,
+					}}
+				>
+					<a
+						href="https://devsoc.codechefvit.com"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img className="devsoc-logo" src="/assets/devsoc.svg" />
+					</a>
+
+					<a
+						href="https://codechefvit.com"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img
+							src="/assets/ccwhite.svg"
+							className="codechef-logo"
+						/>
+					</a>
 				</ParallaxLayer>
 			</Parallax>
 		</div>
