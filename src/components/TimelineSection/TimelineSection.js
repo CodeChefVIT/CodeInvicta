@@ -1,6 +1,5 @@
 import {
 	ComputerOutlined,
-	ListAlt,
 	ListAltOutlined,
 	Person,
 } from "@material-ui/icons";
