@@ -12,11 +12,11 @@ const SpeakerSection = () => {
 				<p className="details-content">
 					We bring you a set of amazing webinars from the masters of
 					programming on{" "}
-					<strong>24th &amp; 25th March(time yet to be told)</strong>.
+					<strong>24th &amp; 25th March, 2021</strong>.
 					<br />
 					<br />
-					So mark the date and be ready if you want to have a peaceful
-					sleep :)
+					Mark the date and be ready if you want to have peaceful
+					sleep!
 				</p>
 			</div>
 		</div>
