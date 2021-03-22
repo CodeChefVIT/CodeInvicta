@@ -1,4 +1,3 @@
-import { NoEncryption } from "@material-ui/icons";
 import React from "react";
 import "./TitleSection.css";
 
@@ -15,7 +14,7 @@ const TitleSection = () => {
 				rel="noreferrer"
 				className="discord"
 			>
-				<img src="https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png" />
+				<img src="https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png" alt="" />
 				Join our Discord
 			</a>
 		</div>

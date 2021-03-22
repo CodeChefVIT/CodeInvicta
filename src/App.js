@@ -43,7 +43,6 @@ function App() {
 				<ParallaxLayer
 					offset={3.3}
 					speed={0.5}
-					factor={1.5}
 					style={{ backgroundColor: "#805E73" }}
 				/>
 
