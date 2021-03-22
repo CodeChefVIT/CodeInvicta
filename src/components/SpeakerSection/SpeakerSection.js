@@ -15,8 +15,9 @@ const SpeakerSection = () => {
 					<strong>24th &amp; 25th March, 2021</strong>.
 					<br />
 					<br />
-					Mark the date and be ready if you want to have peaceful
-					sleep!
+		For a better virtual experience, time to be social. 
+		<br />
+		Go social and follow us on our social handles to be the first to know more about our sessions!
 				</p>
 			</div>
 		</div>
