@@ -86,14 +86,14 @@ function App() {
 					speed={0}
 					factor={4.5}
 					style={{
-						backgroundImage: url("stars", true),
+						backgroundImage: "url('/assets/stars.svg')",
 						backgroundSize: "cover",
 					}}
 				/>
 
 				<ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -101,7 +101,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "10%",
@@ -116,7 +116,7 @@ function App() {
 					style={{ opacity: 0.1 }}
 				>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -124,7 +124,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -135,7 +135,7 @@ function App() {
 
 				<ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "10%",
@@ -143,7 +143,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -158,7 +158,7 @@ function App() {
 					style={{ opacity: 0.4 }}
 				>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -166,7 +166,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "25%",
@@ -174,7 +174,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "10%",
@@ -189,7 +189,7 @@ function App() {
 					style={{ opacity: 0.6 }}
 				>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "20%",
@@ -197,7 +197,7 @@ function App() {
 						}}
 					/>
 					<img
-						src={url("cloud")}
+						src="/assets/cloud.svg"
 						style={{
 							display: "block",
 							width: "15%",
@@ -310,7 +310,7 @@ function App() {
 					style={{ pointerEvents: "none" }}
 				>
 					<img
-						src={url("satellite4")}
+						src="/assets/satellite4.svg"
 						style={{ width: "15%", marginLeft: "80%" }}
 					/>
 				</ParallaxLayer>
