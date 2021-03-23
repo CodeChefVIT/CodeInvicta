@@ -37,9 +37,14 @@ const RegisterSection = () => {
 			});
 		} catch (error) {
 			// If error
-			document.getElementById(
-				"message-err"
-			).innerHTML = `Something wrong happened try again`;
+			if (error.response.status === 403)
+				document.getElementById(
+					"message-success"
+				).innerHTML = `You have already registered before`;
+			else
+				document.getElementById(
+					"message-err"
+				).innerHTML = `Something wrong happened try again`;
 			console.log(error);
 		}
 	};

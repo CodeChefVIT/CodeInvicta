@@ -1,5 +1,4 @@
 import React from "react";
-import WindowBar from "../WindowBar/WindowBar";
 import "./CollabSection.css";
 
 const CollabSection = () => {
@@ -7,8 +6,8 @@ const CollabSection = () => {
 		<div className="window-pane full-width">
 			<div>
 				<h1 className="details-title">
-					A competetive coding event in collaboration with 4 VIT's
-					Codechef Chapters
+					A competitive coding event in collaboration with 4 VIT's
+					CodeChef Chapters
 				</h1>
 				<div className="cc-grid">
 					<img src="/assets/ccvellore.png" alt="" />
@@ -17,7 +16,7 @@ const CollabSection = () => {
 					<img src="/assets/ccbhopal.png" alt="" />
 				</div>
 				<p className="details-content text-center">
-					Developed by Codechef VIT Vellore
+					Developed by CodeChef VIT Vellore
 				</p>
 			</div>
 		</div>
