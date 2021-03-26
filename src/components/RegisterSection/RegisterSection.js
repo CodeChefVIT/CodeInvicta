@@ -58,11 +58,13 @@ const RegisterSection = () => {
 					capability to break the problems and unravel the mystery
 					behind them.
 				</div>
+				<br />	<br />
 				<div>So are you ready for the challenge?</div>
+				<br />	<br />
 				<div>We await you -</div>
-
-				<div>Confirm your participation!</div>
-				<div className="mt">
+				<br />	<br />
+				<div>Join our Coding Contest!</div>
+				{/* <div className="mt">
 					<span className="terminal-success">Name:</span>
 					<span className="terminal-blue">~$</span>
 					<input
@@ -113,7 +115,15 @@ const RegisterSection = () => {
 					&gt;&gt; Submit
 				</button>
 				<div id="message-err" className="terminal-err"></div>
-				<div id="message-success" className="terminal-success"></div>
+				<div id="message-success" className="terminal-success"></div> */}
+				<a
+					href="https://codechefvit.com/discord"
+					target="_blank"
+					rel="noreferrer"
+					className="contestBtn"
+				>
+					Join Contest
+			</a>
 			</div>
 		</div>
 	);
