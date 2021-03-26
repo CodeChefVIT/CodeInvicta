@@ -117,7 +117,7 @@ const RegisterSection = () => {
 				<div id="message-err" className="terminal-err"></div>
 				<div id="message-success" className="terminal-success"></div> */}
 				<a
-					href="https://codechefvit.com/discord"
+					href="https://www.codechef.com/CINV2021"
 					target="_blank"
 					rel="noreferrer"
 					className="contestBtn"
