@@ -1,27 +1,44 @@
 <p align="center"><a href="https://www.codechefvit.com" target="_blank"><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo-3.png" title="CodeChef-VIT" alt="Codechef-VIT"></a>
 </p>
 
-# CodeInvicta
+# Code Invicta
 
 > <Subtitle>
-> Include project description here.
+> Portal for the Competitive Coding Collab event by all 4 CodeChef-VITs.
 
 ---
 
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE)
-[![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
+[![BACKEND REPO](https://img.shields.io/badge/Backend-see%20repo-green?style=flat-square&logo=appveyor)](https://github.com/CodeChefVIT/TechChronicles)
+[![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://codeinvicta.codechefvit.com/)
 
 ## Features
 
-- Insert list of features here
+- Registration form
+- Responsive website
+- Optimised for good SEO
+- reCaptcha support
 
 ## Screenshots
 
-<img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
+<center>
+<img src="https://i.ibb.co/gvkRgGY/Code-Invicta1.png" alt="Project Screenshots">
+<img src="https://i.ibb.co/6Dpvy0Q/Code-Invicta2.png" alt="Project Screenshots">
+<img src="https://i.ibb.co/3sMDw2L/Code-Invicta3.png" alt="Project Screenshots">
+</center>
 
 ## Instructions to run
+```bash
+$ git clone https://github.com/CodeChefVIT/CodeInvicta
+$ cd CodeInvicta
+$ npm i
+# Development build
+$ npm start
+# Production build
+$ npm run build
+```
 
-Just visit codeinvicta.codechefvit.com
+## Environvental variable(s)
+- `REACT_APP_RECAPTCHA_KEY`
 
 ## Contributors
 
