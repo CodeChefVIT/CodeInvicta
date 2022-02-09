@@ -16,7 +16,7 @@ const CollabSection = () => {
 					<img src="/assets/ccbhopal.png" alt="" />
 				</div>
 				<p className="details-content text-center">
-					Developed by CodeChef VIT Vellore
+					Made with ❤️ by CodeChef-VIT Vellore
 				</p>
 			</div>
 		</div>
