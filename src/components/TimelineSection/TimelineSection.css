@@ -9,7 +9,7 @@
 }
 
 .text-style {
-	text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363, 1px 3px 1px #919191, 1px 4px 1px #919191;
+	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #429ebe;
 }
 
 .timeline-sub {

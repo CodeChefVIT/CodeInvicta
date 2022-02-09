@@ -1,7 +1,10 @@
 .sp-title{
 	font-size: 3rem;
+	margin-top: -70px;
 }
-
+.mainDiv{
+	margin-top: -200px;
+}
 .speaker {
 	width: 90%;
 	max-width: 300px;
@@ -22,7 +25,7 @@
 .speaker .name {
 	font-size: 1.6rem !important;
 	margin-bottom: 10px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .speaker .desc {
@@ -50,9 +53,9 @@
 	.speaker .name {
 		font-size: 1.2rem !important;
 		margin-bottom: 10px;
-		text-shadow: 1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222,
+		/* text-shadow: 1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222,
 			1px 1px 0 #222, 2px 2px 0 #429ebe, 3px 3px 0 #429ebe,
-			3px 3px 0 #429ebe, 4px 4px 0 #429ebe;
+			3px 3px 0 #429ebe, 4px 4px 0 #429ebe; */
 	}
 	.speaker .desc {
 		font-size: 0.8rem;
