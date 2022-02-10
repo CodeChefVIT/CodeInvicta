@@ -1,6 +1,6 @@
 .sp-title{
 	font-size: 3rem;
-	margin-top: -40px;
+	margin-top: 15px;
 }
 .mainDiv{
 	margin-top: -200px;
@@ -26,8 +26,8 @@
 }
 
 .speaker img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -67,8 +67,8 @@
 		font-size: 1.7rem;
 	}
 	.speaker img {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 	}
 	.speaker .name {
 		font-size: 1.2rem !important;
