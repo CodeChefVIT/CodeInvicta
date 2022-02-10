@@ -58,7 +58,7 @@ function App() {
 					style={{ pointerEvents: "none" }}
 				>
 					<img
-						src="/assets/satellite4.svg"
+						src="/assets/bablu.svg"
 						style={{ width: "15%", marginLeft: "80%" }}
 					/>
 				</ParallaxLayer>
@@ -306,7 +306,7 @@ function App() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img className="devsoc-logo" src="/assets/devsoc.svg" />
+						<img className="devsoc-logo" src="/assets/devsocLogo.png" />
 					</a>
 
 					<a

@@ -34,6 +34,22 @@
 	outline: none;
 }
 
+.contestBtn {
+	display: flex;
+	background-color: whitesmoke;
+	color: black;
+	border: none;
+	margin: 30px auto;
+	outline: none;
+	font-size: 1.5rem;
+	border-radius: 4px;
+	align-items: center;
+	padding: 16px 32px;
+	width: fit-content;
+	text-decoration: none;
+	box-shadow: 0px 0px 7px rgba(114, 137, 218, 0.8);
+}
+
 .terminal-err {
 	color: red;
 }
@@ -69,6 +85,10 @@
 }
 
 @media (max-width: 650px) {
+	.details-window1 {
+		width: 70%;
+		margin-top: -100px;
+	}
 	.window-pane.register {
 		font-size: 1rem;
 	}
@@ -80,6 +100,10 @@
 }
 
 @media (max-width: 450px) {
+	.details-window1 {
+		width: 80%;
+		margin-top: -100px;
+	}
 	.window-pane.register {
 		font-size: 1.2rem;
 	}
@@ -122,7 +146,7 @@ select:-webkit-autofill:focus {
 	font-size: 1.5rem;
 	border-radius: 4px;
 	align-items: center;
-	padding: 16px 32px;
+	padding: 8px 12px;
 	width: fit-content;
 	text-decoration: none;
 	box-shadow: 0px 0px 7px rgba(114, 137, 218, 0.8);
