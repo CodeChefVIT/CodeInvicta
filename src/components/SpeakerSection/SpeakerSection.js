@@ -7,7 +7,7 @@ const SpeakerSection = () => {
 		<Grid className="mainDiv" container xs={11} md={8} spacing={2}>
 			<Grid item xs={12}><div className="main-date sp-title">Speakers</div></Grid>
 			<Grid item xs={12} sm={6} className="card">
-				<Card sx={{ minWidth: 275 }}>
+				<Card sx={{ minWidth: 200 }} className="card2">
 				<CardContent>
 				<div className="speaker">
 					<img src="/assets/speaker1.jpg" alt="Anoopam Mishra" />
