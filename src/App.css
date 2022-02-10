@@ -8,8 +8,8 @@
 }
 .bablu{
 	margin-top: -10%;
-	margin-left: 60%;
-    width: 800px;
+	margin-left: 45%;
+    width: 1200px;
     height: 600px;
 }
 
@@ -22,8 +22,8 @@
 @media screen and (max-width: 1250px) {
 	.bablu{
 		margin-top: -10%;
-		margin-left: 63%;
-		width: 700px;
+		margin-left: 46%;
+		width: 1000px;
 		height: 500px;
 	}
 }
