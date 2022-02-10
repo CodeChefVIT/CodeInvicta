@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				position: fixed;
+				background: rgba(32,56,117, 1);
+			}
+			canvas { width: 100%; height: 100%; outline: none; }
+			#container { width: 100%; height: 100%; position: relative; }
+			
+					.spline-watermark {
+						position: absolute;
+						bottom: 16px;
+						right: 16px;
+						width: 32px;
+						height: 32px;
+						z-index: 2;
+					}
+					.spline-watermark:hover {
+						opacity: 0.8;
+					}
+					.spline-watermark img {
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+				
+		</style>
+		<title>Untitled</title>
+		<link rel="icon" type="image/png" href="https://app.spline.design/_assets/_icons/icon_favicon16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="https://app.spline.design/_assets/_icons/icon_favicon32x32.png" sizes="32x32">
+
+		<link rel="preload" href="./scene.json" as="fetch">
+	</head>
+	<body>
+		<div id='container'>
+			<canvas id="canvas3d"></canvas>
+			
+					<a class="spline-watermark" href="https://spline.design">
+						<img src="https://app.spline.design/_assets/_icons/icon_favicon32x32.png">
+					</a>
+					
+		</div>
+		<script type="module">
+			import { Application } from './runtime.js';
+			const app = new Application();
+			app.load('./scene.json');
+		</script>
+	</body>
+</html>

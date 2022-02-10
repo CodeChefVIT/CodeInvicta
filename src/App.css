@@ -6,6 +6,12 @@
 	margin-top: 5%;
 	margin-left: 7%;
 }
+.bablu{
+	margin-top: -10%;
+	margin-left: 60%;
+    width: 800px;
+    height: 600px;
+}
 
 .codechef-logo {
 	width: 90px;
@@ -13,7 +19,62 @@
 	margin-top: 5%;
 	margin-right: 7%;
 }
-
+@media screen and (max-width: 1250px) {
+	.bablu{
+		margin-top: -10%;
+		margin-left: 63%;
+		width: 700px;
+		height: 500px;
+	}
+}
+@media screen and (max-width: 1150px) {
+	.bablu{
+		margin-top: 0%;
+		margin-left: 63%;
+		width: 500px;
+		height: 300px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.bablu{
+		margin-top: 0%;
+		margin-left: 55%;
+		width: 500px;
+		height: 300px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.bablu{
+		margin-top: 0%;
+		margin-left: 55%;
+		width: 400px;
+		height: 200px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.bablu{
+		margin-top: -3%;
+		margin-left: 40%;
+		width: 400px;
+		height: 200px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.bablu{
+		margin-top: 35%;
+		margin-left: 35%;
+		width: 350px;
+		height: 200px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.bablu{
+		margin-top: 35%;
+		margin-left: 25%;
+		width: 350px;
+		height: 200px;
+	}
+}
 @media screen and (max-width: 600px) {
 	.devsoc-logo {
 		width: 150px;

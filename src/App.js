@@ -58,8 +58,8 @@ function App() {
 					style={{ pointerEvents: "none" }}
 				>
 					<img
-						src="/assets/bablu.svg"
-						style={{ width: "15%", marginLeft: "80%" }}
+						className="bablu"
+						src="/assets/BabluStill.png"
 					/>
 				</ParallaxLayer>
 
