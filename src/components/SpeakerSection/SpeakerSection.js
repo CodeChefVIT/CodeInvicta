@@ -7,8 +7,8 @@ const SpeakerSection = () => {
 		<Grid className="mainDiv" container xs={11} md={8} spacing={2}>
 			<Grid item xs={12}><div className="main-date sp-title">Speakers</div></Grid>
 			<Grid item xs={12} sm={6} className="card">
-				<Card sx={{ minWidth: 200 }} className="card2">
-				<CardContent>
+				<Card sx={{ minWidth: 200 }}>
+				<CardContent style={{backgroundColor: "#82c8db"}}>
 				<div className="speaker">
 					<img src="/assets/speaker1.jpg" alt="Anoopam Mishra" />
 					<Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -34,11 +34,11 @@ const SpeakerSection = () => {
 			</Grid>
 			<Grid item xs={12} sm={6} className="card">
 				<Card sx={{ minWidth: 275 }}>
-				<CardContent>
+				<CardContent style={{backgroundColor: "#82c8db"}}>
 				<div className="speaker card2">
 					<img src="/assets/speaker2.jpg" alt="Aman Dhattarwal" />
 					<Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-						<div className="main-date name">Aman Dhattarwal</div>
+						<div className="main-date name Aman">Aman Dhattarwal</div>
         			</Typography>
 					<Typography sx={{ fontSize: 14 }}>
 					<div className="desc1">YouTuber and Entrepreneur</div>

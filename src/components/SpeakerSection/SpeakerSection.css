@@ -12,7 +12,7 @@
 	background-color: #111;
 }
 .card2{
-	color: #111;
+	boxShadow: "5px 10px red";
 }
 
 .speaker {
@@ -53,13 +53,16 @@
 	font-size: 0.95rem;
 }
 .Anoopam{
-	color: #f54695;
+	color: #133CEB
+}
+.Aman{
+	color: #133CEB
 }
 .desc{
-	color: #f54695;
+	color: #315EEB;
 }
 .desc1{
-	color: #82c8db;
+	color: #315EEB;
 }
 
 @media (max-width: 576px) {
