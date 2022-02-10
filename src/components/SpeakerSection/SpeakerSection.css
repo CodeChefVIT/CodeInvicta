@@ -1,10 +1,20 @@
 .sp-title{
 	font-size: 3rem;
-	margin-top: -70px;
+	margin-top: -80px;
 }
 .mainDiv{
 	margin-top: -200px;
 }
+
+.card{
+	/* margin: 2px 20px; */
+	margin-top: -50px;
+	background-color: #111;
+}
+.card2{
+	color: #111;
+}
+
 .speaker {
 	width: 90%;
 	max-width: 300px;
@@ -33,13 +43,23 @@
 }
 
 .speaker .date {
-	font-size: 1.3rem;
-	font-weight: 600;
+	margin-top: 8px;
+	font-size: 1.1rem;
+	font-weight: 400;
 }
 
 .speaker .topic {
 	font-weight: 900;
 	font-size: 0.95rem;
+}
+.Anoopam{
+	color: #f54695;
+}
+.desc{
+	color: #f54695;
+}
+.desc1{
+	color: #82c8db;
 }
 
 @media (max-width: 576px) {
