@@ -19,6 +19,22 @@
 	margin-top: 5%;
 	margin-right: 7%;
 }
+::-webkit-scrollbar {
+    width: 11px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(19, 129, 230, 0.8);
+}
+
 @media screen and (max-width: 1250px) {
 	.bablu{
 		margin-top: -10%;
