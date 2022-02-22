@@ -21,7 +21,7 @@ const TimelineSection = () => {
 			<Timeline align="alternate">
 				<TimelineItem>
 					<TimelineOppositeContent>
-						<span className="timeline-sub">20th March 2022</span>
+						<span className="timeline-sub">15th March 2022</span>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineDot
@@ -44,7 +44,7 @@ const TimelineSection = () => {
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<span className="timeline-sub">
-							24th March 2022
+							19th March 2022
 							{/* (x PM - x PM) */}
 						</span>
 					</TimelineOppositeContent>
@@ -69,7 +69,7 @@ const TimelineSection = () => {
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<span className="timeline-sub">
-							25th March 2022
+							19th March 2022
 							{/* (x PM - x PM) */}
 						</span>
 					</TimelineOppositeContent>
@@ -94,7 +94,7 @@ const TimelineSection = () => {
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<span className="timeline-sub">
-							26th March 2022 (9pm - 12am)
+							20th March 2022 (9pm - 12am)
 						</span>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
