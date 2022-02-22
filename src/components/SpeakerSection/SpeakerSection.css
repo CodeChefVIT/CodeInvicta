@@ -52,17 +52,26 @@
 	font-weight: 900;
 	font-size: 0.95rem;
 }
+.job{
+	font-size: 16px;
+	font-weight: 600;
+}
 .Anoopam{
-	color: #133CEB
+	color: rgb(228, 42, 157);
 }
 .Aman{
-	color: #133CEB
+	/* color: rgb(128, 94, 115); */
+	color: rgb(228, 42, 157);
 }
 .desc{
-	color: #315EEB;
+	/* color: #315EEB; */
+	color: #fff;
+	opacity: 0.8;
 }
 .desc1{
-	color: #315EEB;
+	/* color: #315EEB; */
+	color: #fff;
+	opacity: 0.8;
 }
 
 @media (max-width: 576px) {

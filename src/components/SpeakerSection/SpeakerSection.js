@@ -15,7 +15,7 @@ const SpeakerSection = () => {
 						<div className="main-date name Anoopam">Anoopam Mishra</div>
         			</Typography>
 					<Typography sx={{ fontSize: 14 }}>
-						<div className="desc">
+						<div className="Anoopam job">
 							Software Engineer at Google
 						</div>
 						<div className="desc">
@@ -41,7 +41,7 @@ const SpeakerSection = () => {
 						<div className="main-date name Aman">Aman Dhattarwal</div>
         			</Typography>
 					<Typography sx={{ fontSize: 14 }}>
-					<div className="desc1">YouTuber and Entrepreneur</div>
+					<div className="Aman job">YouTuber and Entrepreneur</div>
 					<div className="desc1">___________________________</div>
 					</Typography>
 					<Typography sx={{ fontSize: 14 }}>
