@@ -57,20 +57,20 @@
 	font-weight: 600;
 }
 .Anoopam{
-	color: rgb(228, 42, 157);
+	color: rgb(228, 42, 113);
 }
 .Aman{
 	/* color: rgb(128, 94, 115); */
-	color: rgb(228, 42, 157);
+	color: rgb(228, 42, 113);
 }
 .desc{
 	/* color: #315EEB; */
-	color: #fff;
+	color: rgba(17, 17, 17, 0.884);
 	opacity: 0.8;
 }
 .desc1{
 	/* color: #315EEB; */
-	color: #fff;
+	color: rgba(17, 17, 17, 0.884);
 	opacity: 0.8;
 }
 
