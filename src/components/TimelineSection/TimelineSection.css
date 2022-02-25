@@ -20,6 +20,12 @@
 .timeline-div {
 	margin-bottom: 50px !important;
 }
+.reg{
+	display: block;
+}
+.reg1{
+	display: none;
+}
 
 @media screen and (max-width: 1000px) {
 	.timeline-section h1 {
@@ -31,4 +37,13 @@
 	.timeline-div {
 		margin-bottom: 25px !important;
 	}
+}
+@media screen and (max-width: 360px) {
+	.reg{
+		display: none;
+	}
+	.reg1{
+		display: block;
+	}
+
 }

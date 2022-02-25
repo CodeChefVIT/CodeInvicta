@@ -36,7 +36,8 @@ const TimelineSection = () => {
 					</TimelineSeparator>
 					<TimelineContent className="timeline-div">
 						<div>
-							<h1 className="text-style">Registrations Start</h1>
+							<h1 className="text-style reg">Registration Starts</h1>
+							<h1 className="text-style reg1">Reg Starts</h1>
 							<h3>Make sure to fill the form below!</h3>
 						</div>
 					</TimelineContent>
