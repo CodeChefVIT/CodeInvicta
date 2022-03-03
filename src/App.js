@@ -8,6 +8,7 @@ import RegisterSection from "./components/RegisterSection/RegisterSection";
 import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
 import CollabSection from "./components/CollabSection/CollabSection";
 import TimelineSection from "./components/TimelineSection/TimelineSection";
+import zIndex from "@material-ui/core/styles/zIndex";
 
 const url = (name, wrap = false) =>
 	`${
@@ -55,7 +56,10 @@ function App() {
 				<ParallaxLayer
 					offset={1.4}
 					speed={-0.8}
-					style={{ pointerEvents: "none" }}
+					style={{
+						PointerEvent: "none",
+						zIndex: "200"
+					}}
 				>
 					<img
 						className="bablu"

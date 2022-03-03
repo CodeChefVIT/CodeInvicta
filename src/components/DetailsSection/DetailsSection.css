@@ -1,5 +1,6 @@
 .details-window {
 	width: 70%;
+	z-index: -1;
 }
 
 .window-pane {
