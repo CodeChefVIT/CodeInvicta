@@ -8,7 +8,7 @@ const SpeakerSection = () => {
 			<Grid item xs={12}><div className="main-date sp-title">Speakers</div></Grid>
 			<Grid item xs={12} sm={6} className="card">
 				<Card sx={{ minWidth: 200 }}>
-				<CardContent style={{backgroundColor: "#4EABDB"}}>
+				<CardContent style={{backgroundColor: "#4EABDB", backgroundImage: `url(${"public\assets\Slide.png"})` }}>
 				<div className="speaker">
 					<img src="/assets/speaker1.jpg" alt="Anoopam Mishra" />
 					<Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
