@@ -9,6 +9,7 @@ import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
 import CollabSection from "./components/CollabSection/CollabSection";
 import TimelineSection from "./components/TimelineSection/TimelineSection";
 import zIndex from "@material-ui/core/styles/zIndex";
+import { Rotate90DegreesCcw, Transform } from "@material-ui/icons";
 
 const url = (name, wrap = false) =>
 	`${

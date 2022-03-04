@@ -28,7 +28,7 @@ const SpeakerSection = () => {
 					<div className="topic desc">
 						Topic- Code Optimisation and debugging
 					</div>
-					<div className="date desc "> <i class="fa fa-calendar"> 19th March 2022</i></div>
+					<div className="date desc1 "> <i class="fa fa-calendar"> 19th March 2022</i></div>
 					</Typography>
 				</div>
 				</CardContent>
@@ -49,7 +49,7 @@ const SpeakerSection = () => {
 					<div className="desc1">___________________________</div>
 					</Typography>
 					<Typography sx={{ fontSize: 14 }}>
-					<div className="topic desc1">
+					<div className="topic desc">
 						Topic- Roadmap for Competitive Coding and DSA
 					</div>
 					<div className="date desc1 "> <i class="fa fa-calendar"> 20th March 2022</i></div>

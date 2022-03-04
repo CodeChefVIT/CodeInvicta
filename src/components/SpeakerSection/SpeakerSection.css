@@ -45,7 +45,7 @@
 .speaker .date {
 	margin-top: 8px;
 	font-size: 1.1rem;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .speaker .topic {
@@ -65,14 +65,13 @@
 	color: black
 }
 .desc{
-	/* color: #315EEB; */
-	color: black;
-	opacity: 0.8;
+	color: #fff;
 }
 .desc1{
-	/* color: #315EEB; */
 	color: black;
-	opacity: 0.8;
+}
+.desc1 i{
+	font-weight: 900;
 }
 
 @media (max-width: 576px) {
