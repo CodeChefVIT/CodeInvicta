@@ -8,7 +8,9 @@ const SpeakerSection = () => {
 			<Grid item xs={12}><div className="main-date sp-title">Speakers</div></Grid>
 			<Grid item xs={12} sm={6} className="card">
 				<Card sx={{ minWidth: 200 }}>
-				<CardContent style={{backgroundColor: "#4EABDB", backgroundImage: `url(${"public\assets\Slide.png"})` }}>
+				<CardContent style={{
+					backgroundImage: "url('/assets/Slide.png')",
+					backgroundSize: "cover", }}>
 				<div className="speaker">
 					<img src="/assets/speaker1.jpg" alt="Anoopam Mishra" />
 					<Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -34,7 +36,9 @@ const SpeakerSection = () => {
 			</Grid>
 			<Grid item xs={12} sm={6} className="card">
 				<Card sx={{ minWidth: 275 }}>
-				<CardContent style={{backgroundColor: "#4EABDB"}}>
+				<CardContent style={{
+					backgroundImage: "url('/assets/Slide.png')",
+					backgroundSize: "cover", }}>
 				<div className="speaker card2">
 					<img src="/assets/speaker2.jpg" alt="Aman Dhattarwal" />
 					<Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
