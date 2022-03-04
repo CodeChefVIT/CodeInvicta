@@ -50,7 +50,7 @@ const SpeakerSection = () => {
 					</Typography>
 					<Typography sx={{ fontSize: 14 }}>
 					<div className="topic desc">
-						Topic- Roadmap for Competitive Coding and DSA
+						Topic- Roadmap for Competitive Coding
 					</div>
 					<div className="date desc1 "> <i class="fa fa-calendar"> 20th March 2022</i></div>
 					</Typography>

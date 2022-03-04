@@ -47,41 +47,41 @@
 @media screen and (max-width: 1150px) {
 	.bablu{
 		margin-top: 0%;
-		margin-left: 63%;
-		width: 500px;
-		height: 300px;
+		margin-left: 52%;
+		width: 700px;
+		height: 350px;
 	}
 }
 @media screen and (max-width: 850px) {
 	.bablu{
 		margin-top: 0%;
-		margin-left: 55%;
-		width: 500px;
+		margin-left: 48%;
+		width: 600px;
 		height: 300px;
 	}
 }
 @media screen and (max-width: 700px) {
 	.bablu{
 		margin-top: 0%;
-		margin-left: 55%;
-		width: 400px;
-		height: 200px;
+		margin-left: 38%;
+		width: 600px;
+		height: 300px;
 	}
 }
 @media screen and (max-width: 550px) {
 	.bablu{
-		margin-top: -3%;
-		margin-left: 40%;
-		width: 400px;
-		height: 200px;
+		margin-top: -8%;
+		margin-left: 30%;
+		width: 500px;
+		height: 250px;
 	}
 }
 @media screen and (max-width: 420px) {
 	.bablu{
-		margin-top: 35%;
-		margin-left: 35%;
-		width: 350px;
-		height: 200px;
+		margin-top: 30%;
+		margin-left: 26%;
+		width: 450px;
+		height: 250px;
 	}
 }
 @media screen and (max-width: 350px) {
