@@ -54,6 +54,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .centerly{
 	display: flex;
@@ -79,6 +80,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .discord a{
 	text-decoration: none;
@@ -113,6 +115,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .cclogo a{
 	text-decoration: none;
