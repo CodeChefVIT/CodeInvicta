@@ -102,7 +102,7 @@
 }
 .cclogo {
 	display: flex;
-    background-color: rgb(59, 17, 17);
+    background-color: rgb(83, 18, 18);
 	border: none;
     margin: 20px auto;
     border-radius: 4px;
@@ -125,9 +125,13 @@
 	text-align: center;
 	cursor: pointer;
 }
+.cclogo:hover{
+	background-color: rgb(77, 15, 15);
+}
+
 .cclogo img {
 	padding-top: 3px;
-	background-color: rgb(59, 17, 17);
+	background-color: rgb(51, 5, 5);
     width: 35px;
     height: 35px;
     border-radius: 50%;
