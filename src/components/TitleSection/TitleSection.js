@@ -9,7 +9,7 @@ const TitleSection = () => {
 				A competitive coding event in collaboration with the 4 VITs
 			</h2>
 			<a
-				href="https://codechefvit.com/discord"
+				href="https://discord.codechefvit.com"
 				target="_blank"
 				rel="noreferrer"
 				className="discord"
