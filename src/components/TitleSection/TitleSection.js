@@ -22,8 +22,7 @@ const TitleSection = () => {
 							<div className="centerly">
 								<img src="/assets/cc-logo.png" alt="LOGO" />
 								<p>&nbsp;Register</p>
-							</div>
-								
+							</div>		
 						</a>
 				</button>
 			</div>

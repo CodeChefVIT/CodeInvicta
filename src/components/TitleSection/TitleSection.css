@@ -61,18 +61,20 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
+
 .discord {
 	display: flex;
     background-color: rgb(114, 137, 218);
 	border: none;
-    margin: 30px auto;
+    margin: 20px auto;
     border-radius: 4px;
     align-items: center;
     padding: 8px 20px;
 	box-shadow: 0px 0px 7px rgba(114, 137, 218, 0.8);
 	cursor: pointer;
-	min-width: 200px;
+	min-width: 250px;
 	max-height: 60px;
 	flex-direction: row;
 	justify-content: center;
@@ -100,13 +102,13 @@
 	display: flex;
     background-color: rgb(59, 17, 17);
 	border: none;
-    margin: 30px auto;
+    margin: 20px auto;
     border-radius: 4px;
     align-items: center;
     padding: 8px 20px;
 	box-shadow: 0px 0px 7px rgba(114, 137, 218, 0.8);
 	cursor: pointer;
-	min-width: 200px;
+	min-width: 250px;
 	max-height: 60px;
 	flex-direction: row;
 	justify-content: center;
@@ -118,6 +120,7 @@
 	font-size: 1.5rem;
 	outline: none;
 	text-align: center;
+	cursor: pointer;
 }
 .cclogo img {
 	padding-top: 3px;
@@ -126,4 +129,32 @@
     height: 35px;
     border-radius: 50%;
     margin-right: 5px;
+}
+@media (max-width: 480px) {
+	.discord {
+		min-width: 170px;
+		max-height: 50px;
+	}
+	.discord a{
+		font-size: 1.1rem;
+	}
+	.discord img {
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		margin-right: 5px;
+	}
+	.cclogo {
+		min-width: 170px;
+		max-height: 50px;
+	}
+	.cclogo a{
+		font-size: 1.1rem;
+	}
+	.cclogo img {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		margin-right: 5px;
+	}
 }
