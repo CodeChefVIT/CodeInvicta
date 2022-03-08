@@ -239,7 +239,7 @@ function App() {
 
 				<ParallaxLayer
 					offset={2}
-					speed={0.8}
+					speed={1}
 					style={{
 						display: "flex",
 						alignItems: "center",

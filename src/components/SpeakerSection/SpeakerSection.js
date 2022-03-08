@@ -5,8 +5,8 @@ import "./SpeakerSection.css";
 const SpeakerSection = () => {
 	return (
 		<Grid className="mainDiv" container xs={11} md={8} spacing={2}>
-			<Grid item xs={12}><div className="main-date sp-title">Speakers</div></Grid>
-			<Grid item xs={12} sm={6} className="card">
+			<Grid item xs={12}><div className="main-date sp-title underline">SPEAKERS</div><div className="main-date sp-title">&nbsp;</div></Grid>
+			{/* <Grid item xs={12} sm={6} className="card">
 				<Card sx={{ minWidth: 200 }}>
 				<CardContent style={{
 					backgroundImage: "url('/assets/Slide.png')",
@@ -57,6 +57,12 @@ const SpeakerSection = () => {
 				</div>
 				</CardContent>
 				</Card>
+			</Grid> */}
+
+			<Grid item xs={12}>
+				<div className="main-date sp-title1">TO BE ANNOUNCED</div>
+				<div className="main-date sp-title1">&nbsp;</div>
+				<div className="main-date sp-title1">(PS: STAY TUNED FOR A SURPRISE)</div>
 			</Grid>
 		</Grid>
 	);
