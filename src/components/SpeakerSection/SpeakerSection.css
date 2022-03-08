@@ -1,7 +1,24 @@
 .sp-title{
 	font-size: 3rem;
+	margin-top: 15px;
+}
+.sp-title1{
+	font-size: 2.4rem;
+	margin-top: 15px;
+}
+.mainDiv{
+	margin-top: -200px;
 }
 
+.card{
+	/* margin: 2px 20px; */
+	margin-top: -50px;
+	background-color: #111;
+}
+.underline{
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
 .speaker {
 	width: 90%;
 	max-width: 300px;
@@ -13,8 +30,8 @@
 }
 
 .speaker img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -22,7 +39,7 @@
 .speaker .name {
 	font-size: 1.6rem !important;
 	margin-bottom: 10px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .speaker .desc {
@@ -30,35 +47,60 @@
 }
 
 .speaker .date {
-	font-size: 1.3rem;
-	font-weight: 600;
+	margin-top: 8px;
+	font-size: 1.1rem;
+	font-weight: 700;
 }
 
 .speaker .topic {
 	font-weight: 900;
 	font-size: 0.95rem;
 }
+.job{
+	font-size: 16px;
+	font-weight: 600;
+}
+.Anoopam{
+	/* color: rgb(228, 42, 113); */
+	color: black;
+}
+.Aman{
+	/* color: rgb(128, 94, 115); */
+	color: black
+}
+.desc{
+	color: #fff;
+}
+.desc1{
+	color: black;
+}
+.desc1 i{
+	font-weight: 900;
+}
 
 @media (max-width: 576px) {
 	.sp-title {
 		font-size: 1.7rem;
 	}
+	.sp-title1 {
+		font-size: 1.2rem;
+	}
 	.speaker img {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 	}
 	.speaker .name {
 		font-size: 1.2rem !important;
 		margin-bottom: 10px;
-		text-shadow: 1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222,
+		/* text-shadow: 1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222,
 			1px 1px 0 #222, 2px 2px 0 #429ebe, 3px 3px 0 #429ebe,
-			3px 3px 0 #429ebe, 4px 4px 0 #429ebe;
+			3px 3px 0 #429ebe, 4px 4px 0 #429ebe; */
 	}
 	.speaker .desc {
 		font-size: 0.8rem;
 	}
 	.speaker .date {
-		font-size: 1rem;
+		font-size: 0.6rem;
 	}
 	.speaker .topic {
 		font-size: 0.7rem;

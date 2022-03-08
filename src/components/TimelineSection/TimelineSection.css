@@ -9,7 +9,7 @@
 }
 
 .text-style {
-	text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363, 1px 3px 1px #919191, 1px 4px 1px #919191;
+	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222, 3px 3px 0 #222, 4px 4px 0 #429ebe;
 }
 
 .timeline-sub {
@@ -19,6 +19,12 @@
 
 .timeline-div {
 	margin-bottom: 50px !important;
+}
+.reg{
+	display: block;
+}
+.reg1{
+	display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -31,4 +37,13 @@
 	.timeline-div {
 		margin-bottom: 25px !important;
 	}
+}
+@media screen and (max-width: 360px) {
+	.reg{
+		display: none;
+	}
+	.reg1{
+		display: block;
+	}
+
 }

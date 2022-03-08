@@ -8,6 +8,8 @@ import RegisterSection from "./components/RegisterSection/RegisterSection";
 import SpeakerSection from "./components/SpeakerSection/SpeakerSection";
 import CollabSection from "./components/CollabSection/CollabSection";
 import TimelineSection from "./components/TimelineSection/TimelineSection";
+import zIndex from "@material-ui/core/styles/zIndex";
+import { Rotate90DegreesCcw, Transform } from "@material-ui/icons";
 
 const url = (name, wrap = false) =>
 	`${
@@ -31,7 +33,7 @@ function App() {
 					}}
 				>
 					{/* <img src={url("server")} style={{ width: "20%" }} /> */}
-					<h2 className="main-date">24th - 26th March 2021</h2>
+					<h2 className="main-date">19th - 20th March 2022</h2>
 				</ParallaxLayer>
 
 				<ParallaxLayer
@@ -55,11 +57,14 @@ function App() {
 				<ParallaxLayer
 					offset={1.4}
 					speed={-0.8}
-					style={{ pointerEvents: "none" }}
+					style={{
+						PointerEvent: "none",
+						zIndex: "200"
+					}}
 				>
 					<img
-						src="/assets/satellite4.svg"
-						style={{ width: "15%", marginLeft: "80%" }}
+						className="bablu"
+						src="/assets/BabluStill.png"
 					/>
 				</ParallaxLayer>
 
@@ -222,7 +227,7 @@ function App() {
 
 				<ParallaxLayer
 					offset={1.9}
-					speed={0.7}
+					speed={0.9}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -234,7 +239,7 @@ function App() {
 
 				<ParallaxLayer
 					offset={2}
-					speed={0.8}
+					speed={1}
 					style={{
 						display: "flex",
 						alignItems: "center",
@@ -306,7 +311,7 @@ function App() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img className="devsoc-logo" src="/assets/devsoc.svg" />
+						<img className="devsoc-logo" src="/assets/devsocLogo.png" />
 					</a>
 
 					<a

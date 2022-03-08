@@ -50,7 +50,7 @@ const RegisterSection = () => {
 	};
 
 	return (
-		<div className="details-window">
+		<div className="details-window1">
 			<WindowBar title="Register Now!" />
 			<div className="window-pane register">
 				<div>

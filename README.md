@@ -1,7 +1,7 @@
 <p align="center"><a href="https://www.codechefvit.com" target="_blank"><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo-3.png" title="CodeChef-VIT" alt="Codechef-VIT"></a>
 </p>
 
-# Code Invicta
+# Code Invicta 22
 
 > <Subtitle>
 > Portal for the Competitive Coding Collab event by all 4 CodeChef-VITs.

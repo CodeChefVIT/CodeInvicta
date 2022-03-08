@@ -14,9 +14,16 @@
 	margin: 20px;
 	text-align: center;
 }
+.prize-title{
+	font-weight: 650;
+	font-size: 1.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+}
 
 .prize-rs {
-	font-size: 3.8rem !important;
+	font-size: 3.2rem !important;
 	color: #82c8db !important;
 	margin-bottom: 30px !important;
 }
@@ -24,23 +31,30 @@
 .prize-divider {
 	width: 60%;
 	height: 2px;
-	background-color: white;
+	background-color: #82c8db;
 	border-radius: 10px;
 }
 
 .prize-sub {
-	font-size: 2.8rem;
+	font-size: 2.4rem;
 	color: white;
-	text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363, 1px 3px 1px #919191,
+	/* text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363, 1px 3px 1px #919191,
 		1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
 		1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
 		1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
 		1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
-		1px 30px 60px rgba(16, 16, 16, 0.4);
+		1px 30px 60px rgba(16, 16, 16, 0.4); */
 }
 
 .swag-img {
 	width: 250px;
+}
+.centertext{
+	margin-left:25%;
+}
+.centertext p{
+	justify-content: center;
+	align-items: center;
 }
 
 @media screen and (max-width: 1250px) {
@@ -76,13 +90,13 @@
 	}
 	.prize-sub {
 		font-size: 1rem;
-		letter-spacing: 5px;
-		text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363,
+		letter-spacing: 3px;
+		/* text-shadow: 1px 1px 1px #323232, 1px 2px 1px #636363,
 			1px 3px 1px #919191, 1px 4px 1px #919191, 1px 4px 1px #919191,
 			1px 7px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191,
 			1px 7px 1px #919191, 1px 8px 1px #919191,
 			1px 12px 6px rgba(16, 16, 16, 0.4),
 			1px 14px 10px rgba(16, 16, 16, 0.2),
-			1px 16px 35px rgba(16, 16, 16, 0.2);
+			1px 16px 35px rgba(16, 16, 16, 0.2); */
 	}
 }
