@@ -267,6 +267,7 @@ function App() {
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
+						zIndex:"200"
 					}}
 				>
 					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}

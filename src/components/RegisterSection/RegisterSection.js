@@ -123,7 +123,7 @@ const RegisterSection = () => {
 					className="contestBtn"
 				>
 					Join Contest
-			</a>
+				</a>
 			</div>
 		</div>
 	);
