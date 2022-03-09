@@ -59,7 +59,7 @@ function App() {
 					speed={-0.8}
 					style={{
 						PointerEvent: "none",
-						zIndex: "200"
+						zIndex: "10"
 					}}
 				>
 					<img
@@ -267,6 +267,7 @@ function App() {
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
+						zIndex:"200"
 					}}
 				>
 					{/* <img src={url("clients-main")} style={{ width: "40%" }} /> */}
@@ -290,6 +291,7 @@ function App() {
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
+						zIndex:"200"
 					}}
 				>
 					<TitleSection />

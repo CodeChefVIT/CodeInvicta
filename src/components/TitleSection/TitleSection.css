@@ -54,6 +54,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .centerly{
 	display: flex;
@@ -79,6 +80,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .discord a{
 	text-decoration: none;
@@ -100,7 +102,7 @@
 }
 .cclogo {
 	display: flex;
-    background-color: rgb(59, 17, 17);
+    background-color: rgb(83, 18, 18);
 	border: none;
     margin: 20px auto;
     border-radius: 4px;
@@ -113,6 +115,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }
 .cclogo a{
 	text-decoration: none;
@@ -122,9 +125,13 @@
 	text-align: center;
 	cursor: pointer;
 }
+.cclogo:hover{
+	background-color: rgb(77, 15, 15);
+}
+
 .cclogo img {
 	padding-top: 3px;
-	background-color: rgb(59, 17, 17);
+	background-color: rgb(51, 5, 5);
     width: 35px;
     height: 35px;
     border-radius: 50%;
