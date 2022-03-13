@@ -30,16 +30,16 @@ const PrizesSection = () => {
 					<p className="prize-title prize-sub">&#8377;TBD</p>
 				</div> */}
 				<div className="grid-section">
-					<p className="prize-title prize-sub prize-rs">&#8377;3,000 Each</p>
+					<p className="prize-title prize-sub prize-rs">Best Fresher</p>
 					<hr className="prize-divider" />
-					<p className="prize-title prize-sub">Top 2 Best VIT Coders</p>
+					<p className="prize-title prize-sub">&#8377;2,500</p>
 				</div>
 				<div className="grid-section centertext">
 					<p className="prize-title prize-sub prize-rs">
-						Best Fresher
+					&#8377;3,000 Each
 					</p>
 					<hr className="prize-divider" />
-					<p className="prize-title prize-sub">&#8377;2,500</p>
+					<p className="prize-title prize-sub">Top 2 Best VIT Coders</p>
 				</div>
 			</div>
 		</>
