@@ -65,6 +65,15 @@
 	.prize-sub {
 		font-size: 1.5rem;
 	}
+	.p1{
+		margin-left: 1px
+	}
+	.p2{
+		margin-left: -5px !important;
+	}
+	.p3{
+		margin-left: -10px !important;
+	}
 }
 
 @media screen and (max-width: 960px) {
@@ -80,6 +89,12 @@
 	}
 	.prize-divider {
 		width: 40%;
+	}
+	.p2{
+		margin-left: -6px;
+	}
+	.p3{
+		margin-left: -14px;
 	}
 }
 
@@ -99,4 +114,10 @@
 			1px 14px 10px rgba(16, 16, 16, 0.2),
 			1px 16px 35px rgba(16, 16, 16, 0.2); */
 	}
+}
+.p2{
+	margin-left: -6px;
+}
+.p3{
+	margin-left: -14px;
 }
