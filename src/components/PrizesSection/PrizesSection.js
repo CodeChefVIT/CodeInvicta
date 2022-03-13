@@ -6,9 +6,9 @@ const PrizesSection = () => {
 		<>
 			<div className="prizes-section">
 				<div className="grid-section">
-					<p className="prize-title prize-sub prize-rs">&#8377;33K</p>
+					<p className="prize-title prize-sub prize-rs">Prize Pool</p>
 					<hr className="prize-divider" />
-					<p className="prize-title prize-sub">Prize Pool</p>
+					<p className="prize-title prize-sub">&#8377;33,000</p>
 				</div>
 				<div className="grid-section">
 					<p className="prize-title prize-sub prize-rs">
@@ -17,10 +17,10 @@ const PrizesSection = () => {
 					<hr className="prize-divider" />
 					<p className="prize-title prize-sub">&#8377;2,500</p>
 				</div>
-				<div className="grid-section">
-					<p className="prize-title prize-sub">1st Prize: &#8377; 10,000</p>
-					<p className="prize-title prize-sub">2nd Prize: &#8377; 7,000</p>
-					<p className="prize-title prize-sub">3rd Prize: &#8377; 5,000</p>
+				<div className="grid-section center">
+					<p className="prize-title prize-sub p1">1st Prize: &#8377;10,000</p>
+					<p className="prize-title prize-sub p2">2nd Prize: &#8377;7,000</p>
+					<p className="prize-title prize-sub p3">3rd Prize: &#8377;5,000</p>
 				</div>
 				{/* <div className="grid-section">
 					<p className="prize-title prize-sub prize-rs">
@@ -36,10 +36,10 @@ const PrizesSection = () => {
 				</div>
 				<div className="grid-section centertext">
 					<p className="prize-title prize-sub prize-rs">
-					&#8377;3,000 Each
+					Top 2 VIT Coders
 					</p>
 					<hr className="prize-divider" />
-					<p className="prize-title prize-sub">Top 2 Best VIT Coders</p>
+					<p className="prize-title prize-sub">&#8377;3,000 Each</p>
 				</div>
 			</div>
 		</>
